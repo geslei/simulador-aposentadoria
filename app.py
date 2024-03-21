@@ -7,7 +7,7 @@ st.set_page_config(
     page_title='Simulador Previdencia - Servidores de Rondônia',
     layout='wide')
 
-st.write(f"Isto é apenas uma simulação. A concessão depende da análise do órgão previdenciário. Essa simulação não substitui a consulta de um profissional especializado")
+st.write(f"Isto é apenas uma simulação. A concessão depende da análise do órgão previdenciário. Esta simulação não substitui a consulta de um profissional especializado.")
 st.write(f"SITE EM DESENVOLVIMENTO")
 
 st.header("Simulador de Aposentadoria Servidores de Rondônia - RPPS/IPERON")
