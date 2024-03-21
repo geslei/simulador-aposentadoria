@@ -15,12 +15,19 @@ with col_1:
 with col_2:  
     data_ingresso = st.date_input("Insira a data de ingresso no serviço público", format="DD/MM/YYYY")
 with col_3: 
-    tempo_contribuicao = st.text_input("Quantos anos de contribuição você possui?")
+    tempo_contribuicao = st.number_input("Quantos anos de contribuição você possui?")
 with col_4:    
-    tempo_cargo = st.text_input("Há quantos anos está no cargo atual") 
+    tempo_cargo = st.number_input("Há quantos anos está no cargo atual")
+
+
+
+# with col_3: 
+#     tempo_contribuicao = st.text_input("Quantos anos de contribuição você possui?")
+# with col_4:    
+#     tempo_cargo = st.text_input("Há quantos anos está no cargo atual") 
  
-tempo_contribuicao = int()
-tempo_cargo = int()
+# tempo_contribuicao = int(tempo_contribuicao)
+# tempo_cargo = int(tempo_cargo)
 
 # calculando idade e salvando variável
 idade = date.today().year - data_nascimento.year
