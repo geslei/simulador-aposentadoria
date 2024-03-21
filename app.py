@@ -23,3 +23,4 @@ if (date.today().month, date.today().day) < (data_nascimento.month, data_nascime
 # Arredonde para baixo
 idade = floor(idade)
 st.write(f"Você tem: {idade} anos")
+st.write(f"Atenção!!! Isto é apenas uma simulação e a concessão depende da análise do órgão previdenciário. Essa simulação é apenas um referencial e não substitui a consulta de um profissional especializado"")
